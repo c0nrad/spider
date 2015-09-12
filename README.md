@@ -2,7 +2,7 @@
 
 Simple chrome extension for displaying all linkable content on a page.
 
-[spider.png](spider.png)
+![spider.png](spider.png)
 
 ## How it works
 
