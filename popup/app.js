@@ -49,10 +49,8 @@ function prioritizeUrls(urls, host) {
 
   for (var i = 0; i < urls.length; i++) {
     var url = urls[i];
-    console.log(getOrigin(url), host)
 
     if (getOrigin(url) === host) {
-      console.log(url)
       inDomain.push(url)
     } else {
       outDomain.push(url);
